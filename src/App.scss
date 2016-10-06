@@ -1,0 +1,380 @@
+// $basicCol:#3F51B5;
+$basicCol:#29d2ec;
+$iconSize:23px;
+$hoverColor:lightgray;
+$hoverSection:#f2f2f2;
+$redBtn:#e50000;
+body{
+  margin:0;
+  padding:0;
+}
+//UNIVERSAL CLASS FOR HIDING CONTENT
+.hidden{
+  display:none;
+}
+//SECTION 1 NAVIGATION
+.Nav {
+  background: -moz-linear-gradient(45deg, rgba(137,3,255,0.95) 0%, rgba(0,237,237,1) 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(137,3,255,0.95)), color-stop(100%, rgba(0,237,237,1)));
+  height:1000vh;
+  max-width:250px;
+  margin:0;
+  padding:0;
+  float:left;
+  font-family: 'Georgia';
+  .NavMenuItemLink{
+    color:white;
+    text-decoration: none;
+    cursor:pointer;
+    .fa{
+      font-size:$iconSize;
+    }
+    &:hover{
+      .fa{
+        transform:rotateY(180deg);
+      }
+    }
+  }
+  .NavMenuItemLabel{
+    margin-left:10px;
+    &:hover{
+      color:$hoverColor;
+    }
+  }
+}
+.NavExtended {
+  width: 210px;
+}
+.NavNarrow {
+  width: 75px;
+}
+.NavMenuItem{
+  margin-bottom:10px;
+  margin-top:10px;
+  padding:5px;
+}
+.NavMenu{
+  list-style: none;
+  margin-left: 25px;
+  padding: 0;
+}
+.MenuToggleBtn{
+  border:none;
+  color:white;
+  background:transparent;
+  font-size:44px;
+  position:fixed;
+  margin-top:45vh;
+  margin-left:2vh;
+  cursor:pointer;
+  outline:none;
+  &:hover{
+    color:$hoverColor;
+  }
+}
+//BOX IS A DECORATOR THAT IS A FUNCTION OF HIGHER ORDER, IT ACTS AS A DECORATOR
+.Box{
+  flex-wrap: wrap;
+  display:flex;
+  flex-direction:column;
+  position:relative;
+  .boxClose{
+    position:absolute;
+    right:0px;
+    top:10px;
+    text-decoration: none;
+    font-size:$iconSize;
+    color:$basicCol;
+    &:hover{
+      color:black;
+    }
+  }
+}
+// //SECOND SECTION: HEADERCHECKSPAGE
+.HeaderCheckPage{
+  margin:0;
+  padding:0;
+  max-width:680px;
+  float:left;
+}
+//HEADER CHECK TITLE
+.HeaderCheckTitle{   
+    padding:30px;
+    width:600px;
+    float:left;
+    h1{
+      padding:10px; 
+      color:black;
+    } 
+    .HeaderCheckAddBtn{ 
+      text-align:center;
+      float:left;
+      text-decoration:none;
+      list-style: none;  
+      color:white;
+      font-weight:bold;
+      border:none;
+      outline:none;
+      cursor:pointer;
+      margin-right:20px;
+      margin-top:5px;
+      padding:10px;
+      width:100px;
+      border-radius:3px;
+      background:$basicCol;
+      &:hover{
+        background:black;
+        transition: width 2s;
+        background:black;
+      }
+    }
+    .HeaderCheckImportBtn{
+      background:#8b8bed;
+      @extend .HeaderCheckAddBtn;
+      float:left;
+    }
+    .HeaderCheckExportBtn{
+      background:#20b2aa;
+      @extend .HeaderCheckAddBtn;
+      float:left;
+    }
+  }
+.HeaderCheckForm{
+  margin-top:10px;
+  min-width:370px;
+  padding:40px;
+  label{
+    font-size:21px;
+    display:block;
+    padding:5px;
+  }
+  fieldset{
+    font-size:12px;
+    border:none;
+  }
+  .HCInput{
+    width:97%;
+    height:30px;
+    padding:5px;
+    border-radius:5px;
+    font-size:16px;
+  }
+  .HeaderCheckFormAddBtn{
+    width:90px;
+    margin-top:15px;
+    border-radius:3px;
+    cursor:pointer;
+    padding:12px;
+    border:none;
+    color:white;
+    font-weight: bold;
+    background:$basicCol;
+    outline:none;
+      &:hover{
+        background:lighten($basicCol,10%);
+      }
+      &:disabled{
+        cursor:not-allowed;
+      }
+  }
+  .HeaderCheckFormCancelBtn{
+    @extend .HeaderCheckFormAddBtn;
+    background:$redBtn;
+    float:right;
+     &:hover{
+         background:lighten($redBtn,10%);
+      }
+  }
+}
+.HeaderCheckFormSaveBtn{      
+   width:90px;
+    margin-top:15px;
+    border-radius:3px;
+    cursor:pointer;
+    padding:12px;
+    border:none;
+    color:white;
+    font-weight: bold;
+    background:#7fcdff;
+}
+.HeaderCheckImport{
+  @extend .HeaderCheckForm;
+  display:flex;
+  flex-direction:column;
+  .HeaderCheckImportTextarea{
+    outline:none;
+    padding:5px;
+    border-radius:5px;
+    font-size:16px;
+    height:200px;
+    border:1px solid $hoverColor;
+    box-shadow:1px 3px 10px 1px $hoverColor;
+  }
+  .HeaderCheckImportBtn{
+    border-radius:5px;
+    cursor:pointer;
+    padding:11px;
+    border:none;
+    color:white;
+    font-weight: bold;
+    width:30%;
+    margin-top:10px;
+    background:#8b8bed;
+  }
+  label{
+    font-size:21px;
+    display:block;
+    padding:5px;
+  }
+}
+.HeaderCheckExport{
+   @extend .HeaderCheckForm;
+   display:flex;
+   flex-direction:column;
+   .HeaderChcekExportTextarea{
+      height:200px;
+      padding:5px;
+      border-radius:5px;
+      font-size:16px;
+      border:1px solid $hoverColor;
+      box-shadow:1px 3px 10px 1px $hoverColor;
+   }
+   .HeaderChcekExportBtn{
+      border-radius:5px;
+      cursor:pointer;
+      padding:11px;
+      border:none;
+      color:white;
+      font-weight: bold;
+      width:50%;
+      margin-top:10px;
+      background:#20b2aa;
+   }
+}
+//HEADER CHECK CONTAINER WITH LIST OF ITEMS
+.HeaderCheckList{
+  display:flex;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  min-width:680px;
+  padding:0;  
+}
+
+.HeaderCheckListItem{ 
+  border-bottom:1px solid $hoverColor;
+  border-top:1px solid $hoverColor;
+  list-style: none;
+  padding:10px;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+  div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+      h4{
+    word-wrap: break-word;
+    float:left;
+  }
+    .EditHeaderCheckItem{
+      float:right;
+      border:none;
+      width:50px;
+      height:30px;
+      padding:5px;
+      cursor:pointer;
+      background:#7fcdff;
+      color:white;
+      font-weight:bold;
+      outline:none;
+      &:hover{
+        background:lighten($basicCol,20%);
+      }
+    }
+  }
+  &:hover {
+    transform: scale(1.02);
+    background:#f6f6f6;
+    cursor:pointer;
+  }
+}
+//GROUP OF BUTTONS UNDERNEATH EACH HeaderCheckListItem
+.HeaderCheckListItemGroupButtons{
+  margin-top:55px;
+  padding:1px;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  .btn{
+    border:none;
+    cursor:pointer;
+  }
+  .btnType{
+    background: #0cbb8c;
+      color:white;
+  }
+  .btnId{
+    background:	#e6ffa6;
+  }
+  .btnAuthor{
+    background:	#bdf9fc;
+  }
+  .btnCreatedAt{
+    background:	#3aebff;
+  }
+  .btnScore{
+    background:$redBtn;
+    color:white;
+  }
+  .btnRemoveHeaderCheckItem{
+    border:none;
+    background: #a64ca6;
+    width:30px;
+    height:25px;
+    color:white;
+    font-weight: 900;
+    cursor:pointer;
+  }
+}
+//THIRD COMPONENT
+.ThirdComponentTitle{
+  box-shadow:4px 4px 20px 4px $hoverColor;
+  padding:30px;
+  margin-top:40px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  button{
+    width:30%;
+    border-radius:5px;
+    cursor:pointer;
+    padding:8px;
+    border:none;
+    color:white;
+    font-weight: bold;
+    background:#4169e1;
+  }
+}
+.ThirdComponentContentForm{
+  padding:30px;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  textarea{
+    padding:10px;
+    min-height:200px;
+  }
+  button{
+    margin-top:10%;
+    width:50%;
+    border-radius:5px;
+    cursor:pointer;
+    padding:10px;
+    border:none;
+    color:white;
+    font-weight: bold;
+    background:#4169e1;
+  }
+}

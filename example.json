@@ -1,0 +1,295 @@
+[{
+	"id": "6e2d2b01b34db879d382b5b256d088cc",
+	"regexp": "[A-Z]* [A-Z]* \\<.*",
+	"author": "MK",
+	"type": "reply-to",
+	"score": "2",
+	"createdAt": "2016-08-24T08:18:20.295Z"
+}, {
+	"id": "977bbbe90a7c2181712a8c2bcc29f307",
+	"regexp": ".*=?utf8.*",
+	"author": "MK",
+	"type": "subject",
+	"score": "2",
+	"createdAt": "2016-08-23T11:35:08.766Z"
+}, {
+	"id": "41bb96d7ca1fbc4728a2f1f39acf4b05",
+	"regexp": ".*(love|make|STAND STRONG|SPEED UP|SEDUAL|SEDUCE|STREETS OF PRAHMAC|MEENS HALEH|STUPID).*",
+	"author": "MK",
+	"type": "subject",
+	"score": "4",
+	"createdAt": "2016-08-23T11:32:27.114Z"
+}, {
+	"id": "2b54451bfa387e64e6d87f36058a7601",
+	"regexp": ".*charset=\\\"windows-1252\\\".*",
+	"author": "PP",
+	"type": "content-type",
+	"score": "3",
+	"createdAt": "2016-08-23T11:35:17.101Z"
+}, {
+	"id": "0caed4ffc13a87010f219c4593732faf",
+	"regexp": ".*-1100",
+	"author": "PP",
+	"type": "date",
+	"score": "3",
+	"createdAt": "2016-08-23T11:33:22.222Z"
+}, {
+	"id": "cc0225cd02aaa12a95e6328e4cc05c41",
+	"regexp": "Hola.*",
+	"author": "MK",
+	"type": "subject",
+	"score": "1",
+	"createdAt": "2016-08-23T11:32:47.516Z"
+}, {
+	"id": "95df489d23bb4649e1afafd09b27f0da",
+	"regexp": ".*﻿Find new work.*",
+	"author": "MG",
+	"type": "subject",
+	"score": "3",
+	"createdAt": "2016-08-24T12:04:45.530Z"
+}, {
+	"id": "d030c82672a6b8e7aa087a20994ed03d",
+	"regexp": ".*Current Open Position.*",
+	"author": "MK",
+	"type": "subject",
+	"score": "3",
+	"createdAt": "2016-08-23T11:33:09.306Z"
+}, {
+	"id": "46916e8af4020caa8e0e00b76181b197",
+	"regexp": ".*-0700",
+	"author": "PP",
+	"type": "date",
+	"score": "3",
+	"createdAt": "2016-08-23T11:36:12.093Z"
+}, {
+	"id": "4e44298897ed12cdc10e5302fa781688",
+	"regexp": "Good morning",
+	"author": "PP",
+	"type": "subject",
+	"score": "4",
+	"createdAt": "2016-08-23T11:30:43.771Z"
+}, {
+	"id": "b15ff1f57431b9c012ce7e782f564b0e",
+	"regexp": "How do you do?",
+	"author": "PP",
+	"type": "subject",
+	"score": "4",
+	"createdAt": "2016-08-23T11:31:36.118Z"
+}, {
+	"id": "8eded369c08d5df6d53ab65d9aab080d",
+	"regexp": "7bit",
+	"author": "PP",
+	"type": "content-transfer-encoding",
+	"score": "2",
+	"createdAt": "2016-08-23T11:32:26.239Z"
+}, {
+	"id": "7b6e62a81bc2e9f1bfabe9600452a1c4",
+	"regexp": ".*yahoo.com.*",
+	"author": "PP",
+	"type": "to",
+	"score": "2",
+	"createdAt": "2016-08-23T11:35:46.689Z"
+}, {
+	"id": "4e313c345debe6221780a6ac549bb744",
+	"regexp": ".*\\+0700",
+	"author": "PP",
+	"type": "date",
+	"score": "3",
+	"createdAt": "2016-08-24T08:18:48.685Z"
+}, {
+	"id": "5784a9853dea6eb66e3fc292253b5b52",
+	"regexp": ".*\\+0400",
+	"author": "PP",
+	"type": "date",
+	"score": "3",
+	"createdAt": "2016-08-24T08:18:38.025Z"
+}, {
+	"id": "c918dee649b44ce522b583b936bb009a",
+	"regexp": ".*Well-paid job.*\\(\\d+\\)",
+	"author": "PP",
+	"type": "subject",
+	"score": "5",
+	"createdAt": "2016-08-24T09:25:15.012Z"
+}, {
+	"id": "c3f10288ceb3415efb027023eb669448",
+	"regexp": ".*-0900",
+	"author": "PP",
+	"type": "date",
+	"score": "3",
+	"createdAt": "2016-08-23T11:32:40.989Z"
+}, {
+	"id": "bbfdff7bb2569c17241db69b44668ecc",
+	"regexp": ".*slags piger.*",
+	"author": "MK",
+	"type": "subject",
+	"score": "3",
+	"createdAt": "2016-08-23T11:30:35.863Z"
+}, {
+	"id": "f03bf5dce79cf2b891fdbd7c746f9705",
+	"regexp": ".*Good (Day|Evening|morning).*",
+	"author": "PP",
+	"type": "subject",
+	"score": "4",
+	"createdAt": "2016-08-23T11:30:25.516Z"
+}, {
+	"id": "f8c55eb713af92705543528396df92ed",
+	"regexp": ".*charset=us-ascii.*",
+	"author": "PP",
+	"type": "content-type",
+	"score": "1",
+	"createdAt": "2016-08-23T11:34:51.263Z"
+}, {
+	"id": "c395634e3dd971ef6842dd123c6c3256",
+	"regexp": ".*@rambler.ru.*",
+	"author": "PP",
+	"type": "to",
+	"score": "2",
+	"createdAt": "2016-08-23T11:35:31.118Z"
+}, {
+	"id": "a82262d8abd0781c2e54f4bffa7bfa5c",
+	"regexp": ".*﻿Position available.*",
+	"author": "MK",
+	"type": "subject",
+	"score": "3",
+	"createdAt": "2016-08-23T11:33:50.797Z"
+}, {
+	"id": "d03ccf6241ba2fb70b42e11aeeb77b42",
+	"regexp": ".*good news.*",
+	"author": "MK",
+	"type": "subject",
+	"score": "3",
+	"createdAt": "2016-08-23T11:31:22.115Z"
+}, {
+	"id": "661b3a30908f4a0afe11ba0ef90670cc",
+	"regexp": ".*Job opening.*",
+	"author": "MK",
+	"type": "subject",
+	"score": "4",
+	"createdAt": "2016-08-23T11:35:34.848Z"
+}, {
+	"id": "20cc49c474d45667441aac8cc339fe3a",
+	"regexp": "[a-z][a-z]\\([0-9]\\).*",
+	"author": "PP",
+	"type": "subject",
+	"score": "5",
+	"createdAt": "2016-08-24T08:18:44.614Z"
+}, {
+	"id": "57259da9718c9e30bd5c7f0e99d92e90",
+	"regexp": ".*bill.*",
+	"author": "PP",
+	"type": "subject",
+	"score": "3",
+	"createdAt": "2016-08-23T11:31:50.228Z"
+}, {
+	"id": "5dd378963a44b36417260d6ba6238f16",
+	"regexp": ".*-0500",
+	"author": "MK",
+	"type": "date",
+	"score": "3",
+	"createdAt": "2016-08-23T11:30:52.222Z"
+}, {
+	"id": "9fcfac443d64bdc2507c3382c3f8705c",
+	"regexp": ".*-1200",
+	"author": "MK",
+	"type": "date",
+	"score": "3",
+	"createdAt": "2016-08-24T12:56:55.246Z"
+}, {
+	"id": "9d59c815561c830d448ca2aca00e4597",
+	"regexp": ".*new.*message.*",
+	"author": "MK",
+	"type": "subject",
+	"score": "4",
+	"createdAt": "2016-08-23T11:35:58.263Z"
+}, {
+	"id": "5f96f2b23d603246b9f4e4141c41a332",
+	"regexp": "hi .*",
+	"author": "MK",
+	"type": "subject",
+	"score": "2",
+	"createdAt": "2016-08-23T11:34:24.110Z"
+}, {
+	"id": "be6bf38b4a313326dc6c614c7364f361",
+	"regexp": "PHPMailer.*",
+	"author": "MK",
+	"type": "x-mailer",
+	"score": "2",
+	"createdAt": "2016-08-23T11:32:03.686Z"
+}, {
+	"id": "a4249f8f8c5665e814db925975d3d6c2",
+	"regexp": ".*HR Manager.*",
+	"author": "MK",
+	"type": "from",
+	"score": "6",
+	"createdAt": "2016-08-23T11:30:10.179Z"
+}, {
+	"id": "cf312d0951aa1db5cf31f0958333d13b",
+	"regexp": "How's your day?",
+	"author": "PP",
+	"type": "subject",
+	"score": "4",
+	"createdAt": "2016-08-23T11:31:16.659Z"
+}, {
+	"id": "73ebcc1f94f38ddf98294c1469726e7b",
+	"regexp": "How's it going?",
+	"author": "PP",
+	"type": "subject",
+	"score": "4",
+	"createdAt": "2016-08-23T11:30:58.255Z"
+}, {
+	"id": "dda06466330d81f66da97d7e8a664bc6",
+	"regexp": "hello .*",
+	"author": "MK",
+	"type": "subject",
+	"score": "2",
+	"createdAt": "2016-08-23T11:34:06.268Z"
+}, {
+	"id": "992bbbb00506edffd7e10d210e416a51",
+	"regexp": "What's Up?",
+	"author": "PP",
+	"type": "subject",
+	"score": "3",
+	"createdAt": "2016-08-23T11:30:02.729Z"
+}, {
+	"id": "b6875afbbc8d58da0f7b2782d54c5cc7",
+	"regexp": ".*(\\.us|\\.com|\\.ru|\\.org|\\.info|\\.de).*",
+	"author": "PP",
+	"type": "reply-to",
+	"score": "3",
+	"createdAt": "2016-08-24T12:57:58.909Z"
+}, {
+	"id": "59ac761ba41efc9b5be0825693a427f9",
+	"regexp": ".*( cialis|vigaris|viagiris|pharmziia|pramazieu|parmacia|paramaciaoan|cialissilaic|vviiaaggrraa|pillz|viagra|pfizered|phamazie|genericc|durgs|pharazieu|prhmacy|parmazy|pharmcuie|fcukmachine|viaaagr|pussy|druggs|durggs|parmacie|durg|viugra|piiils|v ia gra|pillllls|pillies|fuckers|vaiguara|parmazie|vigyara|piulls|fak it|pills|erectile|PRAIMACY|PUSSSY|HATETH|SEDUCE HER|DICK |ciulis|v i gra|VIIGUARA|POTENCYIY|VIA\\-GRA).*",
+	"author": "PP",
+	"type": "subject",
+	"score": "3",
+	"createdAt": "2016-08-24T08:19:01.925Z"
+}, {
+	"id": "25851120bdca96db368fae2b49b81583",
+	"regexp": ".*\\+0600",
+	"author": "PP",
+	"type": "date",
+	"score": "3",
+	"createdAt": "2016-08-24T13:02:30.281Z"
+}, {
+	"id": "f52fdebfcd63096225bc0e497a1dad9a",
+	"regexp": ".* watches",
+	"author": "MK",
+	"type": "from",
+	"score": "1",
+	"createdAt": "2016-08-23T11:31:45.291Z"
+}, {
+	"id": "932a2467a7d47eb34b7b37bfd2c752a9",
+	"regexp": "Blue units.*",
+	"author": "MK",
+	"type": "subject",
+	"score": "2",
+	"createdAt": "2016-08-25T10:00:45.603Z"
+}, {
+	"id": "0aa3a1b3034b05ca36abff81e86f20e8",
+	"regexp": ".*﻿Find new work.*",
+	"author": "MK",
+	"type": "subject",
+	"score": "3",
+	"createdAt": "2016-08-23T11:33:29.678Z"
+}]
